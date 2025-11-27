@@ -103,7 +103,7 @@ minimal-springboot/
 - Or manually install Java and ensure JAVA_HOME is set
 - Open a NEW terminal after installation
 
-### "mvn is not recognized" (MAKING ONE MORE CHANGE)
+### "mvn is not recognized" (MAKING ONE MORE CHANGE) checking 
 - Run the `setup-java-maven.ps1` script as Administrator
 - Or manually install Maven via `winget install --id Apache.Maven -e`
 - Open a NEW terminal after installation
