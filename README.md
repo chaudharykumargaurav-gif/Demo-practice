@@ -97,7 +97,7 @@ minimal-springboot/
     └── application.properties                   # App configuration (port 8080)
 ```
 
-## Troubleshooting
+## Troubleshooting (Again making some changes to verify the github account)
 ### "java is not recognized"
 - Run the `setup-java-maven.ps1` script as Administrator
 - Or manually install Java and ensure JAVA_HOME is set
