@@ -98,7 +98,6 @@ minimal-springboot/
 ```
 
 ## Troubleshooting
-
 ### "java is not recognized"
 - Run the `setup-java-maven.ps1` script as Administrator
 - Or manually install Java and ensure JAVA_HOME is set
@@ -109,7 +108,7 @@ minimal-springboot/
 - Or manually install Maven via `winget install --id Apache.Maven -e`
 - Open a NEW terminal after installation
 
-### Port 8080 already in use
+### Port 8080 already in use (just adding something this line, nothing functionality)
 Change the port in `src/main/resources/application.properties`:
 ```properties
 server.port=8081
