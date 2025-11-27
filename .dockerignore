@@ -1,0 +1,29 @@
+# Exclude build artifacts and unnecessary files from Docker context
+target/
+*.jar
+*.war
+*.ear
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# Git
+.git/
+.gitignore
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Maven wrapper (optional - comment out if you want to use it in Docker)
+.mvn/
+mvnw
+mvnw.cmd
+
